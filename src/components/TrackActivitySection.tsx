@@ -8,10 +8,7 @@ interface Activity {
 }
 
 const TrackActivitySection = () => {
-  const [activities, setActivities] = useState<Activity[]>([
-    { id: 1, emoji: "🏃", name: "Run", duration: 20 },
-    { id: 2, emoji: "🚶", name: "Walk", duration: 15 },
-  ]);
+  const [activities, setActivities] = useState<Activity[]>([]);
   const [date, setDate] = useState("");
   const [activity, setActivity] = useState("");
   const [duration, setDuration] = useState("");
