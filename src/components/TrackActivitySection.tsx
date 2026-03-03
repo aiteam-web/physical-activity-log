@@ -43,7 +43,7 @@ const TrackActivitySection = () => {
           Log your daily activities and watch your progress grow.
         </p>
 
-        <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
           {/* Activity Log Card */}
           <div className="wellness-card space-y-4">
             <h3 className="font-serif text-xl font-semibold text-foreground">Activity Log</h3>

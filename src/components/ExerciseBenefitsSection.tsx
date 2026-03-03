@@ -47,7 +47,7 @@ const ExerciseBenefitsSection = () => {
         </p>
 
         {/* Chemical cards */}
-        <div className="grid sm:grid-cols-3 gap-5 max-w-3xl mx-auto mb-10">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto mb-10">
           {chemicalCards.map((card) => (
             <div key={card.title} className="wellness-card-blue text-center space-y-2">
               <div className="text-3xl">{card.emoji}</div>
@@ -71,7 +71,7 @@ const ExerciseBenefitsSection = () => {
         </p>
 
         {/* Deeper cards */}
-        <div className="grid sm:grid-cols-2 gap-5 max-w-3xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
           {deeperCards.map((card) => (
             <div key={card.title} className="wellness-card space-y-2">
               <div className="text-2xl">{card.emoji}</div>

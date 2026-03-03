@@ -2,7 +2,7 @@ import heroImage from "@/assets/hero-jogging.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full min-h-[85vh] md:min-h-screen flex items-center overflow-hidden">
+    <section className="relative w-full min-h-[90vh] md:min-h-screen flex items-center overflow-hidden">
       {/* Background Image */}
       <img
         src={heroImage}
@@ -32,7 +32,7 @@ const HeroSection = () => {
         </div>
 
         {/* Heading */}
-        <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 max-w-2xl">
+        <h1 className="font-serif text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-5 max-w-2xl">
           <span className="text-primary-foreground">Move Your Body,</span>
           <br />
           <span className="text-wellness-accent">Transform Your Mind</span>
